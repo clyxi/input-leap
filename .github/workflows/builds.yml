@@ -24,7 +24,7 @@ env:
 jobs:
   linux-build:
     name: ${{ matrix.name }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04-arm
     container: ${{ matrix.os }}
     strategy:
       fail-fast: false
