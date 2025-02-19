@@ -45,6 +45,12 @@ jobs:
            cc: "gcc"
            cxx: "g++"
            wayland: none
+         - name: ubuntu-22-04-arm64
+           os: "ubuntu:22.04"
+           cc: "gcc"
+           cxx: "g++"
+           wayland: none
+           arch: "arm64"
          - name: ubuntu-24-04
            os: "ubuntu:24.04"
            cc: "gcc"
